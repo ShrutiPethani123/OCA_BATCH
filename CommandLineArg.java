@@ -1,17 +1,8 @@
-class A{
-
-    class B
-    {
-
-    }
-}
-
-
 public class CommandLineArg{
 
-    public static void main(String ...a) {
+    public static void main(String ... deerparms) {
        
-      System.out.println("hello");
+      System.out.println(deerparms[2]);
 
     }
 }
